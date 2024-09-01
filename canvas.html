@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <canvas class="canvas" width="800" height="400"></canvas>
+
+  <script>
+    const canvas = document.querySelector('.canvas')
+
+    const context = canvas.getContext('2d')
+    
+
+    // 绘制线段
+    context.moveTo(100, 100)
+    context.lineTo(200, 200)
+    context.strokeStyle = 'pink'
+    context.stroke();
+
+    
+  </script>
+</body>
+</html>
